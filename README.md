@@ -1,5 +1,6 @@
 # HLHS
-Single-Cell RNA-Seq and Patient-Specific iPSCs Reveal Endocardial and Endothelial Abnormalities in Hypoplastic Left Heart Syndrome
+Single-Cell RNA-Seq Reveals Endocardial Defects in Hypoplastic Left Heart Syndrome
+
 1) HLHS.R: codes for combining all (Left Ventricle CDH5+, Left Ventricle CDH5-, Right Ventricle CDH5+, Right Ventricle CDH5-) cells of undeveloped left heart (ULH) fetal heart tissue;
 2) d83.R: codes for combining all (Left Ventricle CDH5+, Left Ventricle CDH5-, Right Ventricle CDH5+, Right Ventricle CDH5-) cells of normal fetal heart tissue;
 3) d83_HLHS_LVp.R: codes for combining Left Ventricle CDH5+ cells from ULH and normal fetal heart tissue;
