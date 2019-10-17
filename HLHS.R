@@ -14,12 +14,6 @@ for(ind in c("RVp","RVn")){
   all=MergeSeurat(object1=all,object2=myData,add.cell.id2=ind,do.normalize = FALSE)
 }
 
-#outliers=c("LVn_AACCGCGGTGTTGAGG","LVn_ATAGACCTCGGAATCT","LVn_ATTATCCTCTACCAGA","LVn_ATTGGTGGTTCTGTTT","LVn_CTCCTAGGTCAACATC","LVn_GTCTCGTAGAATAGGG",
-#"LVn_TCGGGACTCCCTCAGT","LVn_TTGTAGGCAGCTTAAC","LVn_TTTACTGGTTCAACCA","RVn_AGAGCGATCGTTTATC","RVn_AGCGTATAGGTGATTA","RVn_AGTCTTTGTCGACTAT",
-#"RVn_ATGGGAGAGATGGGTC","RVn_CTCTAATAGAAGGACA","RVn_GCCTCTAGTGCACCAC","RVn_GGTGCGTTCGTCCAGG","RVn_GTACGTATCATCGGAT","RVn_TGAGCCGTCGGCATCG")
-#included_cells=row.names(all@meta.data)[!(row.names(all@meta.data) %in% outliers)]
-#all <- FilterCells(object = all, subset.names = c("nGene", "percent.mito"), low.thresholds = c(500, -Inf), high.thresholds = c(Inf, 0.2),cells.use = included_cells)
-
 all <- FilterCells(object = all, subset.names = c("nGene", "percent.mito"), low.thresholds = c(500, -Inf), high.thresholds = c(Inf, 0.2))
 all <- NormalizeData(object = all, normalization.method = "LogNormalize", scale.factor = 10000)
 pdf("HLHS/variable.genes.pdf")
@@ -88,8 +82,6 @@ top10 <- combined.markers %>% group_by(cluster) %>% top_n(10, avg_logFC)
 pdf("HLHS/Clusters.DEG.heatmap.pdf",height=12,width=9)
 DoHeatmap(object = all, genes.use = top10$gene, slim.col.label = TRUE, remove.key = TRUE,cex.row = 15,group.cex = 20)
 dev.off()
-
-save(all,file=
 
 library(RColorBrewer)
 RdBu = rev(brewer.pal(11, name="RdBu"))
