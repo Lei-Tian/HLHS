@@ -1,11 +1,11 @@
-•	 Project Title: Single-Cell RNA-Seq Reveals Endocardial Defects in Hypoplastic Left Heart Syndrome
-•	 Project Overview: https://github.com/Lei-Tian/HLHS/wiki/Project-Overview
+• Project Title: Single-Cell RNA-Seq Reveals Endocardial Defects in Hypoplastic Left Heart Syndrome
+• Project Overview: https://github.com/Lei-Tian/HLHS/wiki/Project-Overview
 
-•	 Web apps for data visulization:
+• Web apps for data visulization:
         1) https://singlecell.broadinstitute.org/single_cell/study/SCP1020/single-cell-rna-seq-of-ipsc-derived-endocardium-endothelium-from-hypoplastic-left-heart-syndrome-patient#study-visualize
         2) https://singlecell.broadinstitute.org/single_cell/study/SCP1021/single-cell-rna-seq-of-normal-human-fetal-heart#study-visualize
 
-•	 Code:
+• Code:
         1) HLHS.R: combine all (Left Ventricle CDH5+, Left Ventricle CDH5-, Right Ventricle CDH5+, Right Ventricle CDH5-) cells of undeveloped left heart (ULH) fetal heart tissue;
         2) d83.R: combine all (Left Ventricle CDH5+, Left Ventricle CDH5-, Right Ventricle CDH5+, Right Ventricle CDH5-) cells of normal fetal heart tissue;
         3) d83_HLHS_LVp.R: combine Left Ventricle CDH5+ cells from ULH and normal fetal heart tissue;
