@@ -1,5 +1,7 @@
 # HLHS
 Single-Cell RNA-Seq Reveals Endocardial Defects in Hypoplastic Left Heart Syndrome
+https://singlecell.broadinstitute.org/single_cell/study/SCP1020
+https://singlecell.broadinstitute.org/single_cell/study/SCP1021
 
 1) HLHS.R: combine all (Left Ventricle CDH5+, Left Ventricle CDH5-, Right Ventricle CDH5+, Right Ventricle CDH5-) cells of undeveloped left heart (ULH) fetal heart tissue;
 2) d83.R: combine all (Left Ventricle CDH5+, Left Ventricle CDH5-, Right Ventricle CDH5+, Right Ventricle CDH5-) cells of normal fetal heart tissue;
@@ -10,3 +12,4 @@ Single-Cell RNA-Seq Reveals Endocardial Defects in Hypoplastic Left Heart Syndro
 7) detectDEGs_bulkRNAseq: codes detect Differentially Expressed Genes in bulk RNA-seq data;
 8) heatmap.R: plot heatmap in bulk RNA-seq data;
 9) crosstalk.R: detect crosstalks between CM and Endocarduim.
+10) app.R: code for web app
