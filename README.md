@@ -24,4 +24,4 @@ Intrinsic Endocardial Defects Contribute to Hypoplastic Left Heart Syndrome (htt
 Yifei Miao#, Lei Tian#, Marcy Martin, Sharon L. Paige, Francisco X. Galdos, Jibiao Li, Alyssa Klein, Hao Zhang, Ning Ma, Yuning Wei, Maria Stewart, Soah Lee, Jan-Renier Moonen, Bing Zhang, Paul Grossfeld, Seema Mital, David Chitayat, Joseph C. Wu, Marlene Rabinovitch, Timothy J. Nelson, Shuyi Nie, Sean M. Wu, Mingxia Gu.
 
 #These authors contributed equally
-Contact person: Mingxia Gu, Mingxia.Gu@cchmc.org  
+Contact person: Mingxia Gu, Mingxia.Gu@cchmc.org
