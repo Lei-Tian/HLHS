@@ -1,4 +1,4 @@
-• Project Title: Single-Cell RNA-Seq Reveals Endocardial Defects in Hypoplastic Left Heart Syndrome
+• Project Title: Single-Cell RNA-Seq Reveals Endocardial Defects in Hypoplastic Left Heart Syndrome.
 
 • Project Overview: https://github.com/Lei-Tian/HLHS/wiki/Project-Overview
 
@@ -21,7 +21,7 @@
 
 Intrinsic Endocardial Defects Contribute to Hypoplastic Left Heart Syndrome (https://doi.org/10.1016/j.stem.2020.07.015)
 
-Yifei Miao#, Lei Tian#, Marcy Martin, Sharon L. Paige, Francisco X. Galdos, Jibiao Li, Alyssa Klein, Hao Zhang, Ning Ma, Yuning Wei, Maria Stewart, Soah Lee, Jan-Renier Moonen, Bing Zhang, Paul Grossfeld, Seema Mital, David Chitayat, Joseph C. Wu, Marlene Rabinovitch, Timothy J. Nelson, Shuyi Nie, Sean M. Wu, Mingxia Gu
+Lei Tian#, Yifei Miao#, Marcy Martin, Sharon L. Paige, Francisco X. Galdos, Jibiao Li, Alyssa Klein, Hao Zhang, Ning Ma, Yuning Wei, Maria Stewart, Soah Lee, Jan-Renier Moonen, Bing Zhang, Paul Grossfeld, Seema Mital, David Chitayat, Joseph C. Wu, Marlene Rabinovitch, Timothy J. Nelson, Shuyi Nie, Sean M. Wu, Mingxia Gu
 
 #These authors contributed equally
 Contact person: Mingxia Gu, Mingxia.Gu@cchmc.org
