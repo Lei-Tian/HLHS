@@ -1,4 +1,4 @@
-• Project Title: Single-Cell RNA-Seq Reveals Endocardial Defects in Hypoplastic Left Heart Syndrome.
+• Project Title: Single-Cell RNA-Seq Reveals Endocardial Defects in Hypoplastic Left Heart Syndrome
 
 • Project Overview: https://github.com/Lei-Tian/HLHS/wiki/Project-Overview
 
